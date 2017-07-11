@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.nightssky.gankforkotlin.View.Fragment.MeiziFragment">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/meizi_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="1dp">
+    </android.support.v7.widget.RecyclerView>
+    <include
+        android:id="@+id/empty_view"
+        android:visibility="gone"
+        layout="@layout/layout_empty_view"/>
+    <FrameLayout
+        android:id="@+id/anim_layout"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_progress_shadow"
+        android:elevation="5dp"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </FrameLayout>
+</FrameLayout>
