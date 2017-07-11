@@ -8,12 +8,6 @@ import android.os.Handler
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.view.WindowManager
-import android.view.animation.AlphaAnimation
-import com.nightssky.gankforkotlin.R
-import kotlinx.android.synthetic.main.activity_splash.*
-
-
-
 
 class SplashActivity : AppCompatActivity() {
     private val SPLASH_LENGTH: Long = 2000
@@ -28,8 +22,6 @@ class SplashActivity : AppCompatActivity() {
             window.statusBarColor = Color.TRANSPARENT
             window.navigationBarColor = Color.TRANSPARENT
         }
-        setContentView(R.layout.activity_splash)
-        startAnime()
         handler.postDelayed({
             val intent = Intent(this@SplashActivity, MainActivity::class.java)
             startActivity(intent)
@@ -37,10 +29,5 @@ class SplashActivity : AppCompatActivity() {
         }, SPLASH_LENGTH)
     }
 
-    fun startAnime() {
 
-        val animation = AlphaAnimation(0.5f, 1.0f)
-        animation.duration = 1500
-        root_view.startAnimation(animation)
-    }
 }
