@@ -1,7 +1,7 @@
 
 #### 自从Kotlin成了Google爸爸的干儿子后，是越来越火啦，作为一个Android开发者怎么能不会kotlin，那不然就落后啦，于是自己边学边敲撸了一个kotlin的干货客户端分享给大家，有什么不足之处或者建议欢迎提出。
 
-![image](http://osx6gkxo7.bkt.clouddn.com/kotlin_blog_img.jpg)
+![image](http://osxn71dzu.bkt.clouddn.com/kotlin_blog_img.jpg)
 
 ## 项目所运用到的一些第三方库
 
@@ -61,7 +61,7 @@
 
 
 
-![image](http://osx6gkxo7.bkt.clouddn.com/blog_img2.gif)
+![image](http://osxn71dzu.bkt.clouddn.com/blog_img2.gif)
 
 
 最后贴上[项目地址](https://github.com/NightsSky/GankForKotlin/)
